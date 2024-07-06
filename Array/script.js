@@ -47,26 +47,38 @@
 //   console.log("After-> ", data);
 // }
 
-       // let data1 = [20, 30, 50, 10, 80];
-       // console.log(data1);
-       // data1.splice(4,0, 500)
-       // console.log(data1);
-       // data1.unshift(50)
-       // console.log(data1);
-
+// let data1 = [20, 30, 50, 10, 80];
+// console.log(data1);
+// data1.splice(4,0, 500)
+// console.log(data1);
+// data1.unshift(50)
+// console.log(data1);
 
 // Delete Element in the array
 
+// function deleteElement(){
+//        let arr = [10,20,30,40, 80, 90]
+//        let position = document.getElementById("pi").value;
+//        position = parseInt(position)
+//        for(i =position; i<arr.length; i++){
+//               arr[i] = arr[i+1];
+//        }
+//        arr.length = arr.length-1
+//        console.log(arr);
 
-function deleteElement(){
-       let arr = [10,20,30,40, 80, 90]
-       let position = document.getElementById("pi").value;
-       position = parseInt(position)
-       for(i =position; i<arr.length; i++){
-              arr[i] = arr[i+1];
-       }
-       arr.length = arr.length-1
-       console.log(arr);
-       
+// }
+
+// Searching in Array
+
+function findIndex() {
+  let arr = [10, 20, 30, 40, 80, 90];
+  let element = document.getElementById("pi").value;
+  let index;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == element) {
+      index = i;
+      break;
+    }
+  }
+  console.log(index);
 }
-
