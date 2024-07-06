@@ -70,15 +70,54 @@
 
 // Searching in Array
 
-function findIndex() {
-  let arr = [10, 20, 30, 40, 80, 90];
-  let element = document.getElementById("pi").value;
-  let index;
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] == element) {
-      index = i;
-      break;
-    }
+// function findIndex() {
+//   let arr = [10, 20, 30, 40, 80, 90];
+//   let element = document.getElementById("pi").value;
+//   let index;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] == element) {
+//       index = i;
+//       break;
+//     }
+//   }
+//   console.log(index);
+// }
+
+// Merge Two arrays
+// let arr = [10, 20, 30, 40, 80, 90];
+// let arr2 = [70, 7, 3, 6, 12, 19];
+// let arr3 = [];
+// for (let i = 0; i < arr.length; i++) {
+//   arr3[i] = arr[i];
+// }
+// for (let i = 0; i < arr.length; i++) {
+//   arr3[arr.length + i] = arr2[i];
+// }
+// console.log(arr3);
+
+// By using Spread Operator
+// let arr = [10, 20, 30, 40, 80, 90];
+// let arr2 = [70, 7, 3, 6, 12, 19];
+// let arr3 = [...arr, ...arr2];
+// console.log(arr3);
+
+// merge 2 arrays by using while loop
+
+let arr = [10, 20, 30, 40, 80, 90];
+let arr2 = [ 2, 30, 60, 100];
+let arr3 = [];
+let d1 = 0;
+let d2 = 0;
+let d3 = 0;
+while (d1 < arr.length && d2 < arr2.length) {
+  if (arr[d1] < arr2[d2]) {
+    arr3[d3] = arr[d1];
+    d1++;
+  } else {
+    arr3[d3] = arr2[d2];
+    d2++;
   }
-  console.log(index);
+  d3++;
 }
+
+console.log(arr3);
