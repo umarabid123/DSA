@@ -114,7 +114,7 @@ while (d1 < arr.length && d2 < arr2.length) {
     arr3[d3] = arr[d1];
     d1++;
   } else {
-    arr3[d3] = arr2[d2];
+    arr3[d3] = arr1[d2];
     d2++;
   }
   d3++;
