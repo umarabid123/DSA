@@ -103,21 +103,27 @@
 
 // merge 2 arrays by using while loop
 
-let arr = [10, 20, 30, 40, 80, 90];
-let arr2 = [ 2, 30, 60, 100];
-let arr3 = [];
-let d1 = 0;
-let d2 = 0;
-let d3 = 0;
-while (d1 < arr.length && d2 < arr2.length) {
-  if (arr[d1] < arr2[d2]) {
-    arr3[d3] = arr[d1];
-    d1++;
-  } else {
-    arr3[d3] = arr2[d2];
-    d2++;
-  }
-  d3++;
-}
+// let arr = [10, 20, 30, 40, 80, 90];
+// let arr2 = [ 2, 30, 60, 100];
+// let arr3 = [];
+// let d1 = 0;
+// let d2 = 0;
+// let d3 = 0;
+// while (d1 < arr.length && d2 < arr2.length) {
+//   if (arr[d1] < arr2[d2]) {
+//     arr3[d3] = arr[d1];
+//     d1++;
+//   } else {
+//     arr3[d3] = arr2[d2];
+//     d2++;
+//   }
+//   d3++;
+// }
 
-console.log(arr3);
+// console.log(arr3);
+
+
+
+// Hashmap Data Structure
+
+;lda;sdl
